@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Freetato</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <div id="wrapper">
+    <div class="phone view_table rotate" id="phone">
+      <iframe src="https://cellular.de" id="frame"></iframe>
+    </div>
+  </div>
+
+  <div id="controls">
+    <div>
+      <input type="text" id="iframeURL" placeholder="https://cellular.de" value="https://cellular.de" />
+    </div>
+    <div>
+      <input type="number" id="iframeWidth" placeholder="400" value="400" />
+    </div>
+    <div>
+      <input type="number" id="iframeHeight" placeholder="650" value="650" />
+    </div>
+  </div>
+  <div id="views">
+    <button value="table">On the table</button>
+    <button value="side">In the couch</button>
+    <button value="front">On the toilet</button>
+  </div>
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>

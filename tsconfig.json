@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "dom",
+      "es2018"
+    ],
+    "module": "commonjs",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "pretty": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2018",
+    "rootDir": ".",
+    "outDir": "build"
+  },
+  "include": [
+    "src/*.ts",
+    "src/**/*.ts",
+    "test/*.ts",
+    "test/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
